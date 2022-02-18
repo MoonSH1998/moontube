@@ -1,0 +1,36 @@
+{
+  "name": "moontube",
+  "version": "1.0.0",
+  "description": "The best way to watch video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonSH1998/moontube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "author": "MSH<tjdgk8880@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoonSH1998/moontube/issues"
+  },
+  "homepage": "https://github.com/MoonSH1998/moontube#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.9",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
